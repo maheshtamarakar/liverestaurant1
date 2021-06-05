@@ -1,0 +1,30 @@
+.special-menu{
+    background: url('../img/all-bg.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 50rem;
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+.special-menu h1{
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+}
+.special-menu::before{
+    content: '';
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.about-section{
+    margin-top: 0;
+}
+.qt{
+    margin-top: 8rem;
+}

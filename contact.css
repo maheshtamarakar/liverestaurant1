@@ -1,0 +1,30 @@
+.map iframe{
+    width:100%;
+    height:50rem;
+    filter: brightness(50%);
+
+}
+.contact-form input, select, textarea{
+    display: block;
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 2rem;
+    font-size: 2rem;
+
+}
+
+input:focus {
+	outline: none;
+  	border: 2px solid var(--main-bg-color);
+}
+select:focus {
+	outline: none;
+  	border: 2px solid var(--main-bg-color);
+}
+textarea:focus {
+	outline: none;
+  	border: 2px solid var(--main-bg-color);
+}
+.f-control{
+    width: 102%;
+}
