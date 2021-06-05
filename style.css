@@ -250,7 +250,7 @@ background-color:var(--main-bg-color);
 }
 /* about section */
 .about-section{
-    background: white url('../img/about-bg.jpg') no-repeat bottom center;
+    background: white url('about-bg.jpg') no-repeat bottom center;
     background-size: cover;
     margin-top: 70.8rem;
     overflow: hidden;
@@ -302,7 +302,7 @@ background-color:var(--main-bg-color);
 
 }
 .qt{
-    background: url('../img/qt-bg.jpg') no-repeat center center/cover;
+    background: url('qt-bg.jpg') no-repeat center center/cover;
     background-attachment: fixed;
     height: 36rem;
 }
@@ -521,7 +521,7 @@ background-color:var(--main-bg-color);
 }
 .bg{
 
-    background: url('../img/footer-bg.jpg') no-repeat center center/cover;
+    background: url('footer-bg.jpg') no-repeat center center/cover;
     background-color: rgba(0, 0, 0, 0);
     position: relative;
 background-origin: initial;
